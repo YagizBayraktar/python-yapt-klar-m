@@ -1,4 +1,4 @@
-# puzzlu
+# puzzle
 import os
 import random
 
