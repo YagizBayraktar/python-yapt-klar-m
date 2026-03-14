@@ -1,5 +1,4 @@
-# Arda Mavi - ardamavi.com
-# 8-Puzzle
+# puzzlu
 import os
 import random
 
@@ -144,13 +143,13 @@ def oyun():
 
 def main():
     clear_screen()
-    print('8-Puzzle Oyunuma Hoş Geldiniz!\nArda Mavi - ardamavi\n')
+    print('Puzzle Oyunuma Hoş Geldiniz!\n')
     print('-- Oynanış --\nR -> Oyunu Başlat\nW-A-S-D -> Yön Tuşları\nQ -> Çık\n')
     secim = input('Seçim: ').lower()
     clear_screen()
     if secim == 'r':
         oyun()
-    print('8-Puzzle\nArda Mavi - ardamavi\nProgramdan Çıkış Yapıldı')
+    print('Puzzle\nProgramdan Çıkış Yapıldı')
     return
 
 if __name__ == '__main__':
